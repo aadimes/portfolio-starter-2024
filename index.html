@@ -1,0 +1,119 @@
+<!-- 
+Profile Image
+https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg
+Project 1 Image
+https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg
+Project 2 Image
+https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg
+Project 3 Image
+https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg
+-->
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <!-- Pico.css library that gives us some default styles for text, buttons, etc -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul id="nav-items">
+        <li><a href="#profile">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      
+      </ul>
+
+    </nav>
+
+    <main>
+      <section id="profile">
+        <div id="left">
+          <h1 id="my-name">Aurelio Aguirre</h1>
+          <h6 id="school">University of Houston</h6>
+          <p id="description">Short description</p>
+
+
+        </div>
+        <div id="right">
+          <img 
+          src="https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg" 
+          height="200px"
+          width="200px"
+          id="profile-picture"
+          alt="Professional headshot"> 
+
+        </div>
+
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+
+        <div id="project-cards">
+          <div class="project-card">
+            <img 
+            src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg" 
+            alt="Obsidian website mockup">
+            <div class="project-info">
+              <h4>Project 1</h4>
+              <p>A short paragraph to describe the project, 
+                what tech you use and what you learned.
+              </p>
+              <a>Github project</a>
+            </div>
+            <div class="project-card">
+              <img 
+              src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg" 
+              alt="Collection mobile apps">
+              <div class="project-info">
+                <h4>Project 2</h4>
+                <p>A short paragraph to describe the project, 
+                  what tech you use and what you learned.
+                </p>
+                <a>Github project</a>
+              </div>
+              <div class="project-card">
+                <img 
+                src="https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg" 
+                alt="Microcontroller project">
+                <div class="project-info">
+                  <h4>Project 3</h4>
+                  <p>A short paragraph to describe the project, 
+                    what tech you use and what you learned.
+                  </p>
+                  <a>Github project</a>
+                </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+
+        <div class="skill">
+          <h6>SKILLS/HTML/CSS</h6>
+          <p class="skill-description">Reponsive design, acessibility, SEO</p>
+        </div>
+        <div class="skill">
+          <h6>C++</h6>
+          <p class="skill-description">OOP, data structures</p>
+        </div>
+        <div class="skill">
+          <h6>Java</h6>
+          <p class="skill-description">Javascript</p>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <a>Linked In</a>
+      <a>Github</a>
+      <a>Resume</a>
+    </footer>
+  </body>
+</html>
